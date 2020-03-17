@@ -7,7 +7,7 @@ The following diamgram outlines the general process flow, with all of the AWS co
 Created with CloudCraft.co
 
 ## Set-Up
-As precurser to the process flow functioning a table was populated in DynamoDB. The table was simple, just six entries of a single variable. For this project I chose well known 100+ mile Ultra races, but the actual content is not important. All that is necessary is that the items in the DyanmoDB have a wikipedia entry, and that the entry format in the DynamoDB table matches the wikipedia entry. We'll get to why when discussing specific lambda function actions.
+As precurser to the process flow functioning a table was populated in DynamoDB. The table was simple, just six entries of a single variable. For this project I chose well known 100+ mile Ultra races, but the actual content is not important. All that is necessary is that the items in the DyanmoDB have a Wikipedia entry, and that the entry format in the DynamoDB table matches the Wikipedia entry. We'll discuss why when breaking down specific lambda function actions.
 
 ## Lambda Functions
 The core of this pipeline is the two lambda functions. For this project they were referred to as Producer and Consumer functions, respectively.
