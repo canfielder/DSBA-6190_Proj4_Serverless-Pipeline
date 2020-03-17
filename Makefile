@@ -10,7 +10,7 @@ test:
 	#python -m pytest --nbval wine_predict/wine_quality_predict.ipynb
 
 lint:
-	pylint --disable=R,C scripts/*.py
+	pylint --disable=R,C,W1202,E1101 scripts/*.py
 	 
 all: 
 	install lint test

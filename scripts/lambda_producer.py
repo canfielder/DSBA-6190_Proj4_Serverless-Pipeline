@@ -5,8 +5,7 @@ Dynamo to SQS
 
 import boto3
 import json
-import sys
-import os
+from pythonjsonlogger import jsonlogger
 
 # DEFINE DYNAMO TABLE AND SQS QUEUE
 TABLE = "Ultras"
