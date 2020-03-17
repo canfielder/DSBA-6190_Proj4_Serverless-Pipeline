@@ -33,6 +33,7 @@ To clearly show the pipeline results, the following is the input and output for 
 
 ## Wikipedia Entry
 ![](https://user-images.githubusercontent.com/38056064/76873516-39805d00-6844-11ea-9523-a4d97f8fe7c4.png)
+[https://en.wikipedia.org/wiki/Vermont_100_Mile_Endurance_Run](https://en.wikipedia.org/wiki/Vermont_100_Mile_Endurance_Run) (Accessed on 3/17/2020)
 
 ## Detect Entity Results
 ![](https://user-images.githubusercontent.com/38056064/76869699-0f786c00-683f-11ea-859b-1e4bed0d9285.png)
