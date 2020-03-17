@@ -11,6 +11,7 @@ test:
 
 lint:
 	pylint --disable=R,C,W1202,E1101 scripts/*.py
-	 
+	pylint --disable=R,C,W0104,E0602 notebooks/*.ipynb
+
 all: 
 	install lint test
