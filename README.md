@@ -4,9 +4,9 @@ This repo contains the files for Project 4 for DSBA 6190 (Intro to Cloud Computi
 # Process Flow
 The following diamgram outlines the general process flow, with all of the AWS components represented. 
 ![](https://user-images.githubusercontent.com/38056064/76878084-b3b3e000-684a-11ea-9dac-b425bc3f91eb.png)
-Created with CloudCraft.co
+**Created with CloudCraft.co**
 
-## Set-Up
+## DynamoBD Set-Up
 As precurser to the process flow functioning a table was populated in DynamoDB. The table was simple, just six entries of a single variable. For this project I chose well known 100+ mile Ultra races, but the actual content is not important. All that is necessary is that the items in the DyanmoDB have a Wikipedia entry, and that the entry format in the DynamoDB table matches the Wikipedia entry. We'll discuss why when breaking down specific lambda function actions.
 
 ## Lambda Functions
