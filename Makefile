@@ -11,6 +11,6 @@ test:
 
 lint:
 	pylint --disable=R,C scripts/*.py
-	
+	 
 all: 
 	install lint test
