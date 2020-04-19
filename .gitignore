@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+terraform/.terraform/plugins/windows_amd64/lock.json
+terraform/.terraform/plugins/windows_amd64/terraform-provider-archive_v1.3.0_x4.exe
+terraform/.terraform/plugins/windows_amd64/terraform-provider-aws_v2.58.0_x4.exe
+terraform/.terraform/terraform.tfstate
